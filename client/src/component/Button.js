@@ -5,9 +5,9 @@ import React from 'react';
 class Button extends React.Component {
     render() {
         return (
-            <div className="Button">
-                Buttons
-            </div>
+            <button>
+                0
+            </button>
         );
     }
 }

@@ -6,7 +6,10 @@ class Display extends React.Component {
     render() {
         return (
             <div className="Display">
-                Display Screen
+                {/* Displays the total */}
+                <div>
+                    123
+                </div>
             </div>
         );
     }
