@@ -6,7 +6,7 @@ import BtnPanel from './BtnPanel';
 class App extends React.Component {
   // add props for event handler
   handleClick = (btnName) => {
-    console.log('click', btnName);
+    console.log('click', btnName); // shows to console what btn was clicked
   }
 
   render() {
