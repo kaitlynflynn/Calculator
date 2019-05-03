@@ -18,7 +18,7 @@ class BtnPanel extends React.Component {
                 {/* Rendered Component */}
                 {/* 1st Row (AC +/- % /) */}
                 <div>
-                    <Button name = "AC" clickHandler ={this.handleClick} />
+                    <Button name = "C" clickHandler ={this.handleClick} />
                     <Button name = "+/-" clickHandler ={this.handleClick} />
                     <Button name = "%" clickHandler ={this.handleClick} />
                     <Button name = "÷" clickHandler ={this.handleClick} orange />
