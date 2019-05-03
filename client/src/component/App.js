@@ -2,11 +2,21 @@ import React from 'react';
 // import './App.css';
 import Display from './Display';
 import BtnPanel from './BtnPanel';
+import calculate from '../calc/calculate';
 
 class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      total: null,
+      next: null,
+      operation: null,
+    };
+  }
+
   // add props for event handler
   handleClick = (btnName) => {
-    console.log('click', btnName); // shows to console what btn was clicked
+    this.setState(calculate(this.state, btnName));
   }
 
   render() {
@@ -14,7 +24,7 @@ class App extends React.Component {
       <div className="App">
         {/* Rendered Components */}
         <Display 
-          value = "123"
+          value = {this.state.next || this.state.total || '0'}
         />
         <BtnPanel 
           clickHandler = {this.handleClick}
