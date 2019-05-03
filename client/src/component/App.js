@@ -1,5 +1,5 @@
 import React from 'react';
-// import './App.css';
+import './App.css';
 import Display from './Display';
 import BtnPanel from './BtnPanel';
 import calculate from '../calc/calculate';

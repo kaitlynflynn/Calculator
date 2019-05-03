@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from './Button';
 import PropTypes from 'prop-types';
+import './BtnPanel.css';
 
 // static layout - blank component for Btn Panel
 

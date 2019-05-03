@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './Button.css';
 
 // static layout - blank component for Buttons
 class Button extends React.Component {
@@ -11,12 +12,21 @@ class Button extends React.Component {
     }
 
     render() {
+        let className = "button";
+        if (this.props.orange) {
+            className += " orange";
+        }
+        if (this.props.wide) {
+            className += " wide";
+        }
+
         return (
-            <button
-                onClick={this.handleClick} 
-            >
+            <div className = {className}>
+                <button onClick = {this.handleClick}
+                >
                 {this.props.name}
-            </button>
+                </button>
+            </div>
         );
     }
 }
@@ -24,6 +34,8 @@ class Button extends React.Component {
 // added props
 Button.propTypes = {
     name: PropTypes.string,
+    orange: PropTypes.bool,
+    wide: PropTypes.bool,
     clickHandler: PropTypes.func,
 };
 
