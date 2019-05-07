@@ -29,6 +29,11 @@
     color: white;
 }
 
+.button.charcoal button {
+    background-color: rgba(70, 69, 69, 0.993);
+    color: white;
+}
+
 @media (min-width: 200px) and (min-height: 200px) {
     .button button {
         font-size: 25px;
