@@ -20,6 +20,14 @@ class Button extends React.Component {
             className += " wide";
         }
 
+        let className2 = "button";
+        if (this.props.charcoal) {
+            className += " charcoal";
+        }
+        if (this.props.wide) {
+            className += " wide";
+        }
+
         return (
             <div className = {className}>
                 <button onClick = {this.handleClick}
@@ -35,6 +43,7 @@ class Button extends React.Component {
 Button.propTypes = {
     name: PropTypes.string,
     orange: PropTypes.bool,
+    charcoal: PropTypes.bool,
     wide: PropTypes.bool,
     clickHandler: PropTypes.func,
 };
