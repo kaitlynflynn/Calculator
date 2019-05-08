@@ -12,6 +12,7 @@
     padding: 8px 4px 0 4px;
 }
 
+/* responsiveness for screen sizes */
 @media (min-width: 200px) and (min-height: 200px) {
     .Display > div {
         font-size: 60px;

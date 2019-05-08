@@ -24,16 +24,19 @@
     margin-right: 10px;
 }
 
+/* specific orange buttons */
 .button.orange button {
     background-color: rgba(246, 153, 2, 0.993);
     color: white;
 }
 
+/* specific charcoal buttons */
 .button.charcoal button {
     background-color: rgba(70, 69, 69, 0.993);
     color: white;
 }
 
+/* responsiveness for screen sizes */
 @media (min-width: 200px) and (min-height: 200px) {
     .button button {
         font-size: 25px;
