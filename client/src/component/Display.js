@@ -1,9 +1,9 @@
+// my imports
 import React from 'react';
 import PropTypes from 'prop-types';
 import './Display.css'
 
 // static layout - blank component for Display Screen
-
 class Display extends React.Component {
     render() {
         return (
@@ -17,7 +17,7 @@ class Display extends React.Component {
     }
 }
 
-// add props
+// added prop types
 Display.propTypes = {
     value: PropTypes.string,
 };
