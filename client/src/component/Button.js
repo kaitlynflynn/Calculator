@@ -1,3 +1,4 @@
+// my imports
 import React from 'react';
 import PropTypes from 'prop-types';
 import './Button.css';
@@ -14,18 +15,18 @@ class Button extends React.Component {
     render() {
         let className = "button";
         if (this.props.orange) {
-            className += " orange";
+            className += " orange"; // setting specific color for orange buttons from css
         }
         if (this.props.wide) {
-            className += " wide";
+            className += " wide"; // setting specific width from css
         }
 
         let className2 = "button";
         if (this.props.charcoal) {
-            className += " charcoal";
+            className += " charcoal"; // setting specific color for charcoal buttons from css
         }
         if (this.props.wide) {
-            className += " wide";
+            className += " wide"; // setting specific width from css
         }
 
         return (
@@ -39,7 +40,7 @@ class Button extends React.Component {
     }
 }
 
-// added props
+// added prop types
 Button.propTypes = {
     name: PropTypes.string,
     orange: PropTypes.bool,
