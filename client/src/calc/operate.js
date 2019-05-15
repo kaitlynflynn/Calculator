@@ -14,7 +14,12 @@ export default function operate(numberOne, numberTwo, operation) {
         return one.times(two).toString();
     }
     if (operation === '÷') {
-        return one.div(two).toString();
+        if (two == '0') {
+            alert('ERROR: Cannot divide by 0');
+            return '0';
+        } else {
+            return one.div(two).toString();
+        }
     }
     if (operation === '%') {
         return one.mod(two).toString();
