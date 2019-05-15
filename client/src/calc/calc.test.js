@@ -1,5 +1,8 @@
+// my imports
 import calculate from './calculate';
 import { expect } from 'chai';
+
+// tests for calc operations
 
 function pressBtns(btns) {
     const value = {};
