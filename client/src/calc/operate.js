@@ -1,4 +1,7 @@
+// my imports
 import Big from 'big.js';
+
+// logic for various operations imported from Big.js library
 
 export default function operate(numberOne, numberTwo, operation) {
     const one = Big(numberOne);
@@ -15,7 +18,7 @@ export default function operate(numberOne, numberTwo, operation) {
     }
     if (operation === '÷') {
         if (two == '0') {
-            alert('ERROR: Cannot divide by 0');
+            alert('ERROR: Cannot divide by 0'); // alert box pops up if user tries to divide by 0
             return '0';
         } else {
             return one.div(two).toString();
