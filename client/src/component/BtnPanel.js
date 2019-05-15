@@ -1,10 +1,10 @@
+// my imports
 import React from 'react';
 import Button from './Button';
 import PropTypes from 'prop-types';
 import './BtnPanel.css';
 
 // static layout - blank component for Btn Panel
-
 class BtnPanel extends React.Component {
     // add props for event handlers
     handleClick = (btnName) => {
@@ -59,6 +59,7 @@ class BtnPanel extends React.Component {
     }
 }
 
+// prop types
 BtnPanel.propTypes = {
     clickHandler: PropTypes.func,
 };
