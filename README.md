@@ -12,3 +12,6 @@ For this application I built this entirely with the following:
 * [PropTypes](https://reactjs.org/docs/typechecking-with-proptypes.html)
 * [CSS](https://www.w3schools.com/css/)
 * [Big.js](https://yarnpkg.com/en/package/big.js)
+
+## Author
+* [Kaitlyn Flynn](https://kaitlynflynn.com/)
