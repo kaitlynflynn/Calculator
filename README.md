@@ -15,3 +15,7 @@ For this application I built this entirely with the following:
 
 ## Author
 * [Kaitlyn Flynn](https://kaitlynflynn.com/)
+
+## License
+[MIT License](https://github.com/kaitlynflynn/Calculator/blob/master/LICENSE)  
+Copyright (c) 2019 Kaitlyn Flynn
