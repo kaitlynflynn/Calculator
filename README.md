@@ -8,7 +8,7 @@ I had a lot of fun creating this and utilizing the Big.js library for helping ha
 ## Deployment
 https://kfly-calculator.netlify.com/ 
 
-Responsive to a variety of screen sizes! My favorite is using it like it's the size on the iPhone 8 Plus (414 x 736). You should be able to size it to whatever size you are comfortable with.
+Responsive to a variety of screen sizes! My favorite is using it like it's the size on the iPhone 8 Plus (414 x 736). You should be able to size it to whatever size you are comfortable with, but not any smaller than an average size smartphone.
 
 ## Built With
 For this application I built this entirely with the following: 
